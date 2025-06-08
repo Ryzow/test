@@ -1,0 +1,38 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	a: {
+		DisplayName: a
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	ShadowSword: {
+		DisplayName: Shadow Sword
+		Tooltip: A deadly shadow sword with a poisonous effect.
+	}
+
+	ShadowBlast: {
+		DisplayName: Shadow Blast
+		Tooltip: A Shadow Energy From Darkness
+	}
+
+	Arise: {
+		DisplayName: Arise
+		Tooltip: 
+				While equipped, killing enemies has a chance to summon them as your army.
+				Summoning Levels:" +
+               "1-10: Summon up to 2 NPCs" +
+               "10-15: Summon up to 4 NPCs" +
+               "15-25: Summon up to 6 NPCs (Abilities Active)" +
+               "Max Summon Slots: 20'''
+	}
+}
+
+Projectiles.ShadowBlast.DisplayName: Shadow Blast
+"Keybinds.Open Army.DisplayName": Open  Army
+NPCs.SummonedZombie.DisplayName: Summoned Zombie
